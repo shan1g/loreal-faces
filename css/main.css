@@ -224,7 +224,8 @@ header img {
   position: relative;
   bottom: 5vw;
 }
-.main-holder .video-face video {
+.main-holder .video-face video,
+.main-holder .video-face img {
   width: 100%;
 }
 .main-holder .bio {
@@ -234,7 +235,7 @@ header img {
 .main-holder .bio p {
   color: #ffffff;
   font-family: 'trenda-semibold';
-  font-size: 1.56vw;
+  font-size: 1.26vw;
   line-height: 1.85vw;
   max-width: 95%;
 }
