@@ -302,7 +302,7 @@ header img {
   background: #ffffff;
   transform: translateY(-0.2vw) translateX(-0.2vw);
 }
-@media screen and (min-width: 220px) and (max-width: 990px) {
+@media screen and (min-width: 220px) and (max-width: 1180px) {
   body {
     background: #0c0f1d url(../images/bg-brandstorm-france-2022.jpg) no-repeat top right;
     background-size: cover;
