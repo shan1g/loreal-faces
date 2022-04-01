@@ -239,7 +239,7 @@ body {
 	overflow-x:hidden;
 }
 header {
-	padding: 3vw 0 0 0;
+	padding: 4vw 0 0 0;
 	position: fixed;
 	width: 100vw;
 	top: 0;
@@ -248,7 +248,7 @@ header {
 
 	img {
 		position: absolute;
-		right: 3vw;
+		right: 5vw;
 	}
 }
 .main-holder {
@@ -277,12 +277,16 @@ header {
 
 			color:#ffffff;
 			font-family: 'trenda-semibold';
-			font-size:30px; line-height:36px;
+			//font-size:30px; line-height:36px;
+			font-size: 1.56vw;
+			line-height: 1.85vw;
 			max-width: 95%;
 
 			span {
 				text-transform:uppercase;
-				font-size:34px; line-height:38px;
+				//font-size:34px; line-height:38px;
+				font-size: 1.6vw;
+				line-height: 1.9vw;
 				color:@mainCol4;
 				font-family: 'trenda-bold';
 				display:block;
@@ -304,11 +308,16 @@ header {
 
 			p {
 				font-size:18px; line-height:24px;
+				font-size: 1vw;
+				line-height: 1.3vw;
 				text-align:center;
 				max-width: 100%;
 			}
 			a {
-				font-size:28px; line-height:32px;
+				//font-size:28px; line-height:32px;
+				font-size: 1.5vw;
+				line-height: 1.6vw;
+				text-transform:uppercase;
 				font-family: 'trenda-black';
 				color:#000000;
 				text-decoration: none;
@@ -356,6 +365,25 @@ header {
 
 }
 
+@media screen and (min-width: 1180px) and (max-width: 1440px) {
+
+	body {
+		min-height:100vh;
+	}
+	.main-holder {
+		padding-top: 15vw;
+	}
+}
+@media screen and (min-width: 1180px) and (max-width: 1280px) {
+
+	header img {
+		max-width: 200px;
+	}
+	.main-holder {
+		padding-top: 17vw;
+	}
+}
+
 @media screen and (min-width: 220px) and (max-width: 1180px)
 {
 	body {
@@ -398,10 +426,10 @@ header {
 		}
 		.bio {
 			width:100%;
-			padding: 0 5vw;
+			padding: 0 9vw;
 
 			p {
-				font-size: 4vw;
+				font-size: 4.3vw;
 				line-height: 7vw;
 				max-width:100%;
 
@@ -426,9 +454,14 @@ header {
 					margin-bottom:8vw;
 					width: 100%;
 
-					a {
-						font-size: 5vw;
+					p {
+						font-size: 4vw;
 						line-height: 7vw;
+					}
+
+					a {
+						font-size: 4vw;
+						line-height: 6vw;
 					}
 				}
 			}
