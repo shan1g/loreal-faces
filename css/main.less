@@ -257,11 +257,13 @@ header {
 	align-content: center;
 	width:100vw;
 	height: 100%;
-	padding-top:8vw;
+	padding-top:10vw;
 
 	.video-face {
 		width:40%;
 		padding: 0 0 0 3vw;
+		position: relative;
+		bottom: 5vw;
 
 		video {
 			width:100%;
@@ -272,13 +274,15 @@ header {
 		padding: 0 5vw;
 
 		p {
-			text-transform:uppercase;
+
 			color:#ffffff;
 			font-family: 'trenda-semibold';
-			font-size:42px; line-height:48px;
-			max-width: 68%;
+			font-size:30px; line-height:36px;
+			max-width: 95%;
 
 			span {
+				text-transform:uppercase;
+				font-size:34px; line-height:38px;
 				color:@mainCol4;
 				font-family: 'trenda-bold';
 				display:block;
@@ -287,7 +291,7 @@ header {
 
 		.links {
 			display:flex;
-			margin-top:5vw;
+			margin-top:3vw;
 
 			.link {
 				margin-right:8vw;
@@ -355,7 +359,7 @@ header {
 @media screen and (min-width: 220px) and (max-width: 990px)
 {
 	body {
-		background: #0c0f1d url(../images/bg-brandstorm-france-2022.jpg) no-repeat center center;
+		background: #0c0f1d url(../images/bg-brandstorm-france-2022.jpg) no-repeat top right;
 		background-size: cover;
 		background-blend-mode: lighten;
 		overflow-x: hidden;
@@ -398,13 +402,35 @@ header {
 			padding: 0 5vw;
 
 			p {
-				font-size: 6vw;
-				line-height: 9vw;
+				font-size: 4vw;
+				line-height: 7vw;
+				max-width:100%;
 
 				span {
+					font-size: 5vw;
+					line-height: 8vw;
 					color:@mainCol4;
 					font-family: 'trenda-bold';
 					display:block;
+				}
+			}
+
+			.links {
+				display: flex;
+				margin-top: 10vw;
+				flex-wrap: wrap;
+				justify-content: center;
+				padding-bottom:10vw;
+
+				.link {
+					margin-right: 0;
+					margin-bottom:8vw;
+					width: 100%;
+
+					a {
+						font-size: 5vw;
+						line-height: 7vw;
+					}
 				}
 			}
 		}
